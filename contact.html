@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VROOM - Fale Conosco</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- CABEÇALHO / NAVBAR -->
+  <header>
+    <div class="logo">LOGO</div>
+    <nav>
+      <a href="index.html">início</a>
+      <a href="models.html">modelos</a>
+      <a href="contact.html" class="active">fale conosco</a>
+      <a href="about.html">conheça-nos</a>
+    </nav>
+    <a href="login.html" class="user-link">
+      <img src="https://via.placeholder.com/32/ffffff/000000?text=👤" alt="Usuário" />
+      PERFIL
+    </a>
+  </header>
+
+  <section class="contact-page">
+    <main class="contact-main">
+      <div class="contact-box">
+        <h2>ENTRE EM CONTATO</h2>
+        <p>Tem alguma dúvida? Nos envie uma mensagem</p>
+        <form>
+          <input type="text" name="nome" placeholder="Seu Nome" required />
+          <input type="email" name="email" placeholder="Seu E-mail" required />
+          <textarea name="mensagem" placeholder="Sua Mensagem..." required></textarea>
+          <button type="submit" class="btn-send">ENVIAR</button>
+        </form>
+      </div>
+    </main>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
