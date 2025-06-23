@@ -5,52 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VROOM - Modelos</title>
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="/favicon.ico" />
 </head>
 <body>
-  <!-- CABEÇALHO / NAVBAR -->
   <header>
-    <div class="logo">LOGO</div>
-    <nav>
-      <a href="index.html">início</a>
-      <a href="models.html" class="active">modelos</a>
-      <a href="contact.html">fale conosco</a>
-      <a href="about.html">conheça-nos</a>
+    <div class="logo">
+      <a href="index.html" aria-label="Voltar ao início">LOGO</a>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="models.html" class="active">Modelos</a>
+      <a href="contact.html">Fale conosco</a>
+      <a href="about.html">Conheça-nos</a>
     </nav>
-    <a href="login.html" class="user-link">
-      <img src="https://via.placeholder.com/32/ffffff/000000?text=👤" alt="Usuário" />
-      PERFIL
+    <a href="login.html" class="user-link" aria-label="Perfil do usuário">
+      <img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" alt="Ícone de usuário" />
+      Perfil
     </a>
   </header>
 
-  <section class="models-page">
+  <section class="models-page" aria-label="Lista de modelos de veículos">
     <main class="models-main">
-      <!-- Seis cards de modelo (2 linhas x 3 colunas) -->
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 1</div>
-        <div class="desc-modelo">descrição 1</div>
+        <div class="img-modelo">Modelo 1</div>
+        <div class="desc-modelo">Compacto urbano, econômico e moderno</div>
       </div>
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 2</div>
-        <div class="desc-modelo">descrição 2</div>
+        <div class="img-modelo">Modelo 2</div>
+        <div class="desc-modelo">SUV robusto com espaço para família</div>
       </div>
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 3</div>
-        <div class="desc-modelo">descrição 3</div>
+        <div class="img-modelo">Modelo 3</div>
+        <div class="desc-modelo">Esportivo de alta performance</div>
       </div>
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 4</div>
-        <div class="desc-modelo">descrição 4</div>
+        <div class="img-modelo">Modelo 4</div>
+        <div class="desc-modelo">Sedã executivo com luxo e conforto</div>
       </div>
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 5</div>
-        <div class="desc-modelo">descrição 5</div>
+        <div class="img-modelo">Modelo 5</div>
+        <div class="desc-modelo">Elétrico com autonomia de 500km</div>
       </div>
       <div class="card-modelo-detalhe">
-        <div class="img-modelo">foto do modelo 6</div>
-        <div class="desc-modelo">descrição 6</div>
+        <div class="img-modelo">Modelo 6</div>
+        <div class="desc-modelo">Off-road para aventuras extremas</div>
+      </div>
+      <div class="card-modelo-detalhe">
+        <div class="img-modelo">Modelo 7</div>
+        <div class="desc-modelo">Conversível para curtir o verão</div>
+      </div>
+      <div class="card-modelo-detalhe">
+        <div class="img-modelo">Modelo 8</div>
+        <div class="desc-modelo">Hatch compacto com design ousado</div>
       </div>
     </main>
-    <aside class="models-aside-ad">ANÚNCIO</aside>
+    <aside class="models-aside-ad" role="complementary" aria-label="Publicidade lateral">Anúncio</aside>
   </section>
 
   <script src="js/script.js"></script>
